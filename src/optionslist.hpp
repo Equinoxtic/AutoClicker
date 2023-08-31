@@ -6,7 +6,9 @@
 #include<iostream>
 #include "ui_option.hpp"
 
-static inline int createListFromStrings(std::vector<std::pair<std::string, std::string>> &vec_ls)
+typedef std::vector<std::pair<std::string, std::string>> OPTIONS_LIST;
+
+static inline int createListFromStrings(OPTIONS_LIST vec_ls)
 {
 	if (!vec_ls.empty()) {
 		for (size_t i = 0; i < vec_ls.size(); ++i) {

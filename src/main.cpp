@@ -65,7 +65,7 @@ static void init()
 	printOut("NumPad2 = activate autoclicker on saved position");
 	printOut("NumPad3 = STOP");
 	printOut("Escape  = Close", "\n\n"); */
-	std::vector<std::pair<std::string, std::string>> options_ls = {
+	OPTIONS_LIST options_ls = {
 		{ "NumPad1", "Save Mouse position." },
 		{ "NumPad2", "Activate Auto-clicker on saved position." },
 		{ "NumPad3", "Stop Auto-clicker operation." },
